@@ -1,0 +1,26 @@
+{
+  "name": "hillel_cypress",
+  "version": "1.0.0",
+  "description": "hillel_cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open" : "npx cypress open",
+    "cypress:run": "npx cypress run --spec cypress/e2e/1-getting-started/todo.cy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kolya-13/hillel_cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Kolya-13/hillel_cypress/issues"
+  },
+  "homepage": "https://github.com/Kolya-13/hillel_cypress#readme",
+  "devDependencies": {
+    "cypress": "^14.1.0"
+  }
+}
